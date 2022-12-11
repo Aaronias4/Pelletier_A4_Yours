@@ -51,7 +51,7 @@ namespace MilburyLab4
             }
         }
         //This is a function to show a message box when it is called
-        private void DisplayMs(string message, string title)
+        private void DisplayMsg(string message, string title)
         {
                 MessageBox.Show(message, title);
         }
@@ -67,7 +67,7 @@ namespace MilburyLab4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ResetTrip()
+            ResetTrip();
         }
 
         //Apply the SetFlight function to the Cuba radiobutton
@@ -115,7 +115,7 @@ namespace MilburyLab4
                 grpTripInfo.Visible = true;
 
                 //Clear the display label
-                lblDisplay.Text = ""
+                lblDisplay.Text = "";
 
                 //Add information about the person who booked the trip
                 lblDisplay.Text += "Booked by Aaron" + "\n" ;
