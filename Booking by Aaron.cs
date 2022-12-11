@@ -67,7 +67,7 @@ namespace MilburyLab4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ResetTrip()
+            ResetTrip();
         }
 
         //Apply the SetFlight function to the Cuba radiobutton
