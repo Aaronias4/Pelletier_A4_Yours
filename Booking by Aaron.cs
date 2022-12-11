@@ -115,7 +115,7 @@ namespace MilburyLab4
                 grpTripInfo.Visible = true;
 
                 //Clear the display label
-                lblDisplay.Text = ""
+                lblDisplay.Text = "";
 
                 //Add information about the person who booked the trip
                 lblDisplay.Text += "Booked by Aaron" + "\n" ;
