@@ -51,7 +51,7 @@ namespace MilburyLab4
             }
         }
         //This is a function to show a message box when it is called
-        private void DisplayMs(string message, string title)
+        private void DisplayMsg(string message, string title)
         {
                 MessageBox.Show(message, title);
         }
